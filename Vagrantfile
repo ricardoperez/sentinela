@@ -27,5 +27,5 @@ Vagrant.configure(2) do |config|
 
   define_vm config, 'app', 'sentinela', '10.0.0.120', [/app-test.dev.vagrant$/], 'rails_server.sh'
   define_vm config, 'redis-master', 'sentinela', '10.0.0.123', [/redis-master.dev.vagrant$/], 'redis_server.sh'
-  define_vm config, 'redis-slave', 'sentinela', '10.0.0.124', [/redis-slave.dev.vagrant$/], 'redis_server.sh'
+  define_vm config, 'redis-slave', 'sentinela', '10.0.0.124', [/redis-slave.dev.vagrant$/], 'redis_slave.sh'
 end
