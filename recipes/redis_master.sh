@@ -1,5 +1,5 @@
 #!/bin/sh
-. redis_server.sh
+. /vagrant/recipes/redis_server.sh
 
 wget https://raw.githubusercontent.com/ricardoperez/redis-template/master/redis.conf -O /etc/redis/redis.conf
 
