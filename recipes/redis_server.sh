@@ -9,7 +9,7 @@ make
 make install
 
 cd ..
-wget https://raw.githubusercontent.com/ricardoperez/redis-template/master/redis-server -O /etc/init.d/redis-server
+wget https://raw.githubusercontent.com/ricardoperez/redis-template/master/init/redis-server -O /etc/init.d/redis-server
 sudo chmod u+x /etc/init.d/redis-server
 
 if [ ! -d '/etc/redis' ]; then
